@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="@dimen/medium_margin">
+
+    <TextView
+        android:id="@+id/tv_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/darkGray"
+        android:text="flower category"
+        android:layout_marginTop="@dimen/small_margin"/>
+
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price here"
+        android:textSize="16sp"
+        android:textColor="@color/darkGray"
+        android:layout_below="@id/tv_category"/>
+
+
+    <TextView
+        android:id="@+id/tv_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="care instructions"
+        android:layout_marginTop="@dimen/medium_margin"
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:textSize="13sp"
+        android:textColor="@color/darkGray"
+        android:layout_below="@id/tv_price"/>
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Flower name"
+        android:textColor="@color/darkGray"
+        android:layout_below="@id/tv_instructions" />
+
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@color/lightGray"
+        android:text="product id"
+        android:layout_below="@id/tv_name"
+        android:layout_marginTop="@dimen/small_margin"
+        />
+
+
+
+</RelativeLayout>
